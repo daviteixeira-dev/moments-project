@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #dec129;
+}
+
+footer h3 {
+  margin-bottom: 1.2rem;
+}
+
+footer span {
+  color: #dec129;
+  font-wight: bold;
+}
