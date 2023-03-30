@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2, p {
+  margin-bottom: 1rem;
+}
+
+.about a {
+  text-decoration: underline;
+}
