@@ -1,4 +1,5 @@
 <form (ngSubmit)="submit()" [formGroup]="momentForm" #formDir="ngForm">
+  <input type="hidden" formControlName="id" />
   <div class="form-group">
     <label for="title">Título:</label>
     <input
@@ -6,7 +7,7 @@
       type="text"
       formControlName="title"
       placeholder="Coloque um título"
-    >
+    />
     <div *ngIf="title.invalid && formDir.submitted" class="validation-error">
       <p *ngIf="title.errors?.['required']">O título é obrigatório.</p>
     </div>
