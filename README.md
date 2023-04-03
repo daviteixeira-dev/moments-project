@@ -38,6 +38,8 @@
   </li>
 </ul>
 
+<p>Para o back-end desse projeto, utilize a seguinte <a href="https://github.com/daviteixeira-btm/API-RESTful-com-AdonisJS">API</a>.</p>
+
 <a id="Aplicacao"></a>
 ## 🚀 Aplicação
 
